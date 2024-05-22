@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "710841271487",
+    "project_id": "applicationmobile-f805f",
+    "storage_bucket": "applicationmobile-f805f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710841271487:android:ed054cb7ab5a859e4b720a",
+        "android_client_info": {
+          "package_name": "com.example.applicationmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD81ueaF0slQjr2v4jz-v75PTQI6CXabTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
