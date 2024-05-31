@@ -14,6 +14,18 @@ object BotResponse {
         val message = _message.toLowerCase()
 
         return when {
+            message.contains("help") -> {
+                """
+                🌟 Here are some commands you can try 🌟:
+                🎬 - Movie: Afficher les films populaires
+                🧮 - solve: Calculateur
+                📝 - equation a,b,c: Donner la solution des équations de second degré
+                🪙 - flip coin: Pile ou face
+                ⏰ - time: Afficher l'heure actuelle
+                🌐 - open google: Ouvrir Google
+                🔍 - search [terme]: Rechercher sur Internet
+                """.trimIndent()
+            }
 
             // Flips a coin
             message.contains("flip") && message.contains("coin") -> {

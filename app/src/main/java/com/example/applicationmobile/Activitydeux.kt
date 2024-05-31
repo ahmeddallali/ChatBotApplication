@@ -33,12 +33,14 @@ class Activitydeux : ComponentActivity()  {
             finish()
         }
         binding.movie.setOnClickListener {
+            user.signOut()
             startActivity(Intent(
                 this,MainActivity2::class.java
             ))
             finish()
         }
         binding.chat.setOnClickListener {
+            user.signOut()
             startActivity(Intent(
                 this,ActivityChat::class.java
             ))
